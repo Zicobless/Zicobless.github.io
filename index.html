@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Developer Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">&lt;Ekondu Isaac /&gt;</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <p class="hero-tag">// frontend developer</p>
+        <h1>I build things<br/>for the <span class="highlight">web</span></h1>
+        <p class="hero-subtitle">Crafting fast, accessible, and visually polished interfaces using HTML, CSS &amp; JavaScript.</p>
+        <div class="hero-btns">
+          <a href="#portfolio" class="btn-primary">View My Work</a>
+          <a href="https://www.fiverr.com/ekondu_isaac" target="_blank" class="btn-outline">Hire on Fiverr</a>
+        </div>
+        <div class="hero-code">
+          <pre><code><span class="c-keyword">const</span> developer = {
+  name: <span class="c-string">"Ekondu Isaac"</span>,
+  skills: [<span class="c-string">"HTML"</span>, <span class="c-string">"CSS"</span>, <span class="c-string">"JavaScript"</span>],
+  available: <span class="c-bool">true</span>
+};</code></pre>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="img-ring">
+          <img src="WhatsApp Image 2026-03-21 at 12.25.21 PM.jpeg" alt="Profile Photo" />
+        </div>
+        <div class="badge badge-1">HTML5</div>
+        <div class="badge badge-2">CSS3</div>
+        <div class="badge badge-3">JS</div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <p class="section-tag">// about me</p>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a front-end developer who loves turning ideas into real, interactive experiences on the web. I write clean, semantic HTML, maintainable CSS, and vanilla JavaScript that actually works.</p>
+          <p>On Fiverr I've delivered 100+ projects — from landing pages to full multi-page websites — always on time and with clear communication.</p>
+          <div class="stats-row">
+            <div class="stat"><span class="stat-num">100+</span><span class="stat-label">Projects Done</span></div>
+            <div class="stat"><span class="stat-num">5★</span><span class="stat-label">Fiverr Rating</span></div>
+            <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Years Exp.</span></div>
+          </div>
+        </div>
+        <div class="about-img-wrap">
+          <img src="WhatsApp Image 2026-03-21 at 12.25.21 PM.jpeg" alt="About Photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <p class="section-tag">// tech stack</p>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, accessibility, SEO-friendly structure.</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
+          <span class="skill-pct">95%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animations, responsive design, custom properties.</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+          <span class="skill-pct">90%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, ES6+, async/await, APIs, animations.</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">📱</div>
+          <h3>Responsive Design</h3>
+          <p>Mobile-first layouts that look great on every screen size.</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:92%"></div></div>
+          <span class="skill-pct">92%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <h3>Dev Tools</h3>
+          <p>Git, VS Code, Chrome DevTools, Figma, npm.</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+          <span class="skill-pct">80%</span>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">⚛️</div>
+          <h3>React (Basics)</h3>
+          <p>Components, hooks, state management, JSX.</p>
+          <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+          <span class="skill-pct">70%</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <p class="section-tag">// my work</p>
+      <h2 class="section-title">Recent Projects</h2>
+      <div class="filter-tabs">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="html-css">HTML/CSS</button>
+        <button class="filter-btn" data-filter="javascript">JavaScript</button>
+        <button class="filter-btn" data-filter="landing">Landing Pages</button>
+      </div>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card" data-category="landing html-css">
+          <div class="card-img">
+            <img src="https://placehold.co/500x300/0d0d0d/00d4ff?text=SaaS+Landing+Page" alt="SaaS Landing Page" />
+            <div class="card-overlay">
+              <a href="#" class="btn-outline-sm">Live Demo</a>
+              <a href="#" class="btn-outline-sm">Source</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>SaaS Landing Page</h3>
+            <p>Conversion-focused landing page with smooth scroll animations.</p>
+            <div class="card-tags">
+              <span>HTML</span><span>CSS</span><span>JS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="javascript">
+          <div class="card-img">
+            <img src="https://placehold.co/500x300/0d0d0d/00d4ff?text=Weather+App" alt="Weather App" />
+            <div class="card-overlay">
+              <a href="#" class="btn-outline-sm">Live Demo</a>
+              <a href="#" class="btn-outline-sm">Source</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Weather App</h3>
+            <p>Real-time weather using OpenWeather API with dynamic UI updates.</p>
+            <div class="card-tags">
+              <span>JavaScript</span><span>API</span><span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="html-css landing">
+          <div class="card-img">
+            <img src="https://placehold.co/500x300/0d0d0d/00d4ff?text=Restaurant+Site" alt="Restaurant Site" />
+            <div class="card-overlay">
+              <a href="#" class="btn-outline-sm">Live Demo</a>
+              <a href="#" class="btn-outline-sm">Source</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Restaurant Website</h3>
+            <p>Responsive multi-page site with menu, gallery, and reservation form.</p>
+            <div class="card-tags">
+              <span>HTML</span><span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="javascript">
+          <div class="card-img">
+            <img src="https://placehold.co/500x300/0d0d0d/00d4ff?text=Todo+App" alt="Todo App" />
+            <div class="card-overlay">
+              <a href="#" class="btn-outline-sm">Live Demo</a>
+              <a href="#" class="btn-outline-sm">Source</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Task Manager App</h3>
+            <p>Drag-and-drop task manager with localStorage persistence.</p>
+            <div class="card-tags">
+              <span>JavaScript</span><span>CSS Grid</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="html-css">
+          <div class="card-img">
+            <img src="https://placehold.co/500x300/0d0d0d/00d4ff?text=Portfolio+UI" alt="Portfolio UI" />
+            <div class="card-overlay">
+              <a href="#" class="btn-outline-sm">Live Demo</a>
+              <a href="#" class="btn-outline-sm">Source</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Portfolio Template</h3>
+            <p>Clean developer portfolio with dark theme and CSS animations.</p>
+            <div class="card-tags">
+              <span>HTML</span><span>CSS</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-card" data-category="landing javascript">
+          <div class="card-img">
+            <img src="https://placehold.co/500x300/0d0d0d/00d4ff?text=E-Commerce+UI" alt="E-Commerce UI" />
+            <div class="card-overlay">
+              <a href="#" class="btn-outline-sm">Live Demo</a>
+              <a href="#" class="btn-outline-sm">Source</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>E-Commerce UI</h3>
+            <p>Product listing with cart functionality and filter system.</p>
+            <div class="card-tags">
+              <span>JavaScript</span><span>CSS</span><span>HTML</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="section-tag">// what i offer</p>
+      <h2 class="section-title">Fiverr Gigs</h2>
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <h3>Landing Page</h3>
+          <p>A fast, responsive, and conversion-ready landing page built from scratch.</p>
+          <ul>
+            <li>Mobile responsive</li>
+            <li>Cross-browser compatible</li>
+            <li>Clean &amp; commented code</li>
+            <li>Delivered in 2 days</li>
+          </ul>
+          <a href="https://www.fiverr.com/ekondu_isaac" target="_blank" class="btn-primary">Order Now</a>
+        </div>
+
+        <div class="service-card featured">
+          <div class="service-badge">Most Popular</div>
+          <div class="service-num">02</div>
+          <h3>Full Website</h3>
+          <p>Multi-page website with animations, contact form, and full responsiveness.</p>
+          <ul>
+            <li>Up to 5 pages</li>
+            <li>JS interactions &amp; animations</li>
+            <li>SEO-friendly HTML</li>
+            <li>Delivered in 5 days</li>
+          </ul>
+          <a href="https://www.fiverr.com/ekondu_isaac" target="_blank" class="btn-primary">Order Now</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <h3>Bug Fixing / Edits</h3>
+          <p>Fix layout issues, CSS bugs, or add new features to your existing site.</p>
+          <ul>
+            <li>Fast turnaround</li>
+            <li>Responsive fixes</li>
+            <li>JS debugging</li>
+            <li>Delivered in 1 day</li>
+          </ul>
+          <a href="https://www.fiverr.com/ekondu_isaac" target="_blank" class="btn-primary">Order Now</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="section-tag">// contact</p>
+      <h2 class="section-title">Let's Work Together</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>Got a project? I'm available for freelance work. Drop me a message or find me on Fiverr.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>amehisaac60@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">💼</span>
+              <a href="https://www.fiverr.com/ekondu_isaac" target="_blank">fiverr.com/ekondu_isaac</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">💬</span>
+              <a href="https://wa.me/2348106361791" target="_blank">WhatsApp: +2348106361791</a>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">⏱️</span>
+              <span>Reply within 24 hours</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+          </div>
+          <input type="text" placeholder="Project Type (e.g. Landing Page)" />
+          <textarea rows="5" placeholder="Tell me about your project..." required></textarea>
+          <button type="submit" class="btn-primary">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="logo">&lt;Ekondu Isaac /&gt;</p>
+      <p class="footer-copy">&copy; 2026 Ekondu Isaac. Built with HTML, CSS &amp; JS.</p>
+      <div class="social-links">
+        <a href="https://www.fiverr.com/ekondu_isaac" target="_blank" class="social-link">Fiverr</a>
+        <a href="https://github.com/ekondu_isaac" target="_blank" class="social-link">GitHub</a>
+        <a href="https://linkedin.com/in/ekondu_isaac" target="_blank" class="social-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
